@@ -1,28 +1,27 @@
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": "/send-email",
-        "methods": "POST",
-        "dest": "server/app.js"
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "/send-email",
-        "destination": "/send-email"
-      }
-    ],
-    "headers": [
-      {
-        "source": "/send-email",
-        "headers": [
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "version": 2,
+  "routes": [
+    {
+      "src": "/send-email",
+      "methods": ["POST"],
+      "dest": "server/app.js"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/send-email",
+      "destination": "/server/app.js"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/send-email",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
