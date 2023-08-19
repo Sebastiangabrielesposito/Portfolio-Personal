@@ -6,14 +6,14 @@ import cors from 'cors'
 const app = express()
 dotenv.config()
 
-const corsOptions = {
-    origin: ['https://portfolio-personal-kk5a.vercel.app', 'http://127.0.0.1:5500' ], 
-    methods: 'POST', 
-    allowedHeaders: ['Content-Type'], 
-  };
+// const corsOptions = {
+//     origin: ['https://portfolio-personal-kk5a.vercel.app', 'http://127.0.0.1:5500' ], 
+//     methods: 'POST', 
+//     allowedHeaders: ['Content-Type'], 
+//   };
 
 //CORS
-app.use(cors(corsOptions));
+app.use(cors());
 
 
 //Setting express
