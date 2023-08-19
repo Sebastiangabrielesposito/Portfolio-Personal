@@ -1,12 +1,5 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/send-email",
-      "methods": ["POST"],
-      "dest": "server/app.js"
-    }
-  ],
   "rewrites": [
     {
       "source": "/send-email",
