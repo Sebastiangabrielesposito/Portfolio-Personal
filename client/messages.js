@@ -16,7 +16,7 @@ contactForm.addEventListener('submit',async (e) =>{
     // window.location.origin === 'https://portfolio-personal-tan.vercel.app' ?
     //     serverUrl = 'https://portfolio-personal-tan.vercel.app' : serverUrl = 'http://localhost:9000';
     
-    const serverUrl = 'https://portfolio-personal-eight.vercel.app';
+    const serverUrl = 'https://portfolio-personal-kk5a.vercel.app';
 
     // const currentOrigin = window.location.origin;
     // const serverUrl = currentOrigin === 'https://portfolio-personal-beta-ochre.vercel.app/' ? currentOrigin : 'http://localhost:9000';
