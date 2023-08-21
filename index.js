@@ -7,7 +7,7 @@ const app = express()
 dotenv.config()
 
 // const corsOptions = {
-//     origin: ['https://https://portfolio-personal-indol-omega.vercel.app', 'http://127.0.0.1:5500' ], 
+//     origin: ['https://portfolio-personal-indol-omega.vercel.app', 'http://127.0.0.1:5500' ], 
 //     methods: 'POST', 
 //     allowedHeaders: ['Content-Type'], 
 //   };
