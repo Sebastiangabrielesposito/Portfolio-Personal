@@ -11,15 +11,16 @@ contactForm.addEventListener('submit',async (e) =>{
         message: document.querySelector('textarea[name="message"]').value
     };
     
-    // let serverUrl;
     console.log(window.location.origin);
-    // window.location.origin === 'https://portfolio-personal-indol-omega.vercel.app' ?
-    //     serverUrl = 'https://portfolio-personal-indol-omega.vercel.app' : serverUrl = 'http://localhost:9000';
+    let serverUrl;
     
-    const serverUrl = 'https://portfolio-personal-indol-omega.vercel.app';
+    window.location.origin === 'https://portfolio-personal-indol-omega.vercel.app' ?
+        serverUrl = 'https://portfolio-personal-indol-omega.vercel.app' : serverUrl = 'http://localhost:9000';
+    
+    // const serverUrl = 'https://portfolio-personal-indol-omega.vercel.app';
+    // const serverUrl = 'http://localhost:9000';
 
-    // const currentOrigin = window.location.origin;
-    // const serverUrl = currentOrigin === 'https://portfolio-personal-indol-omega.vercel.app' ? currentOrigin : 'http://localhost:9000';
+   
 
 
     try {
