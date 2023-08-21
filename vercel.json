@@ -15,16 +15,12 @@
       "src": "/send-email",
       "methods": "POST",
       "dest": "index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
     }
   ],
   "rewrites": [
     {
-      "source": "/send-email",
-      "destination": "/send-email"
+      "source": "/(.*)",
+      "destination": "/"
     }
   ],
   "headers": [
