@@ -16,10 +16,10 @@ contactForm.addEventListener('submit',async (e) =>{
     // window.location.origin === 'https://portfolio-personal-tan.vercel.app' ?
     //     serverUrl = 'https://portfolio-personal-tan.vercel.app' : serverUrl = 'http://localhost:9000';
     
-    const serverUrl = 'https://portfolio-personal-mu.vercel.app';
+    const serverUrl = 'https://portfolio-personal-indol-omega.vercel.app';
 
     // const currentOrigin = window.location.origin;
-    // const serverUrl = currentOrigin === 'https://portfolio-personal-beta-ochre.vercel.app/' ? currentOrigin : 'http://localhost:9000';
+    // const serverUrl = currentOrigin === 'https://portfolio-personal-indol-omega.vercel.app' ? currentOrigin : 'http://localhost:9000';
 
 
     try {
