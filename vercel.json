@@ -1,31 +1,15 @@
 {
   "version": 2,
-  "routes": [
+  "builds": [
     {
-      "src": "/send-email",
-      "methods": "POST",
-      "dest": "server/app.js"
+      "src": "./index.js",
+      "use": "@vercel/node" 
     }
   ],
-  "rewrites": [
+  "routes":[
     {
-      "source": "/send-email",
-      "destination": "/send-email"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/client/$1"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/send-email",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
