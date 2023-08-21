@@ -12,12 +12,11 @@ contactForm.addEventListener('submit',async (e) =>{
     };
     
     console.log(window.location.origin);
-    let serverUrl;
+ 
     
-    window.location.origin === 'https://portfolio-personal-indol-omega.vercel.app' ?
-        serverUrl = 'https://portfolio-personal-indol-omega.vercel.app' : serverUrl = 'http://localhost:9000';
+    const serverUrl = 'https://portfolio-personal-indol-omega.vercel.app';
     
-    // const serverUrl = 'https://portfolio-personal-indol-omega.vercel.app';
+    //En local//////////////////////////////////
     // const serverUrl = 'http://localhost:9000';
 
    
