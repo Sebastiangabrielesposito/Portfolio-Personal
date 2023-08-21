@@ -1,24 +1,15 @@
 {
   "version": 2,
-  "rewrites": [
+  "builds": [
     {
-      "source": "/send-email",
-      "destination": "/server/app.js"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/$1"
+      "src": "./server/app.js",
+      "use": "@vercel/node"
     }
   ],
-  "headers": [
+  "routes": [
     {
-      "source": "/send-email",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
