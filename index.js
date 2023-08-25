@@ -23,6 +23,8 @@ app.use(express.urlencoded({ extended: true }));
 
 const PORT = process.env.PORT // || 9000 (En localHost)
 
+// const PORT = 9000
+
 app.post('/send-email',(req,res)=>{
     const {name, email, address, number, message} = req.body
     console.log(req.body);
