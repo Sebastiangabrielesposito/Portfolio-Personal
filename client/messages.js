@@ -14,10 +14,10 @@ contactForm.addEventListener('submit',async (e) =>{
     console.log(window.location.origin);
  
     
-    // const serverUrl = 'https://portfolio-personal-indol-omega.vercel.app';
+    const serverUrl = 'https://portfolio-personal-indol-omega.vercel.app';
     
     //En local//////////////////////////////////
-    const serverUrl = 'http://localhost:9000';
+    // const serverUrl = 'http://localhost:9000';
 
    
 
